@@ -1,0 +1,674 @@
+[33mcommit af3ee34f494a5db92f1a4e5bdede7ddf1ca01259[m
+Author: usamaashraf785 <usamachoudhary785@gmail.com>
+Date:   Sat Jun 3 22:29:09 2023 +0200
+
+    My ML Practice
+
+[1mdiff --git a/.idea/.gitignore b/.idea/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..26d3352[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/.gitignore[m
+[36m@@ -0,0 +1,3 @@[m
+[32m+[m[32m# Default ignored files[m
+[32m+[m[32m/shelf/[m
+[32m+[m[32m/workspace.xml[m
+[1mdiff --git a/.idea/ML-Learning.iml b/.idea/ML-Learning.iml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1607ff6[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/ML-Learning.iml[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<module type="PYTHON_MODULE" version="4">[m
+[32m+[m[32m  <component name="NewModuleRootManager">[m
+[32m+[m[32m    <content url="file://$MODULE_DIR$" />[m
+[32m+[m[32m    <orderEntry type="jdk" jdkName="ocr" jdkType="Python SDK" />[m
+[32m+[m[32m    <orderEntry type="sourceFolder" forTests="false" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</module>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..105ce2d[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/inspectionProfiles/profiles_settings.xml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<component name="InspectionProjectProfileManager">[m
+[32m+[m[32m  <settings>[m
+[32m+[m[32m    <option name="USE_PROJECT_PROFILE" value="false" />[m
+[32m+[m[32m    <version value="1.0" />[m
+[32m+[m[32m  </settings>[m
+[32m+[m[32m</component>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/misc.xml b/.idea/misc.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..30fa5b7[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/misc.xml[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ProjectRootManager" version="2" project-jdk-name="ocr" project-jdk-type="Python SDK" />[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/modules.xml b/.idea/modules.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f8bd410[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/modules.xml[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ProjectModuleManager">[m
+[32m+[m[32m    <modules>[m
+[32m+[m[32m      <module fileurl="file://$PROJECT_DIR$/.idea/ML-Learning.iml" filepath="$PROJECT_DIR$/.idea/ML-Learning.iml" />[m
+[32m+[m[32m    </modules>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.ipynb_checkpoints/Untitled-checkpoint.ipynb b/.ipynb_checkpoints/Untitled-checkpoint.ipynb[m
+[1mnew file mode 100644[m
+[1mindex 0000000..363fcab[m
+[1m--- /dev/null[m
+[1m+++ b/.ipynb_checkpoints/Untitled-checkpoint.ipynb[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m "cells": [],[m
+[32m+[m[32m "metadata": {},[m
+[32m+[m[32m "nbformat": 4,[m
+[32m+[m[32m "nbformat_minor": 5[m
+[32m+[m[32m}[m
+[1mdiff --git a/1SortingtheDataFrame-200324-000012/1. Sorting the DataFrame.ipynb b/1SortingtheDataFrame-200324-000012/1. Sorting the DataFrame.ipynb[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ec9c6c3[m
+[1m--- /dev/null[m
+[1m+++ b/1SortingtheDataFrame-200324-000012/1. Sorting the DataFrame.ipynb[m	
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m{"nbformat":4,"nbformat_minor":0,"metadata":{"kernelspec":{"display_name":"Python 3","language":"python","name":"python3"},"language_info":{"codemirror_mode":{"name":"ipython","version":3},"file_extension":".py","mimetype":"text/x-python","name":"python","nbconvert_exporter":"python","pygments_lexer":"ipython3","version":"3.7.3"},"colab":{"name":"1. Sorting the DataFrame.ipynb","provenance":[]}},"cells":[{"cell_type":"markdown","metadata":{"id":"2ld-dfQRxw2Q","colab_type":"text"},"source":["---\n","---\n","\n","<center><h1> 📍 📍 Sorting the Data 📍 📍 </h1></center>\n","\n","---\n","\n","In this notebook, we will see how to sort the data based on a single column and on multiple columns. Also we will see how to reset index after sorting the data.\n","\n","---\n"]},{"cell_type":"code","metadata":{"id":"SsQF1TVZxw2U","colab_type":"code","colab":{}},"source":["# import the pandas library\n","import pandas as pd"],"execution_count":0,"outputs":[]},{"cell_type":"markdown","metadata":{"id":"fB7A9E35xw2a","colab_type":"text"},"source":[" ---\n","\n","#### `CREATE A SAMPLE DATAFRAME`\n","\n","\n","- We will create a sample data of students that will contain `roll_no`, `name`, `grade`, `marks` and `city`. \n","\n","\n","---"]},{"cell_type":"code","metadata":{"id":"OAP31pWIxw2c","colab_type":"code","colab":{},"outputId":"9420cf7f-d0f1-4728-dc3c-186144c21c7b"},"source":["# sample dataframe\n","data_frame = pd.DataFrame({\n","    'roll_no': [ 102, 101, 104, 103, 105],\n","    'name' : ['Aravind', 'Rahul', 'Prateek', 'Piyuesh', 'Kartik'],\n","    'grade': ['B', 'B', 'A', 'C', 'A'],\n","    'marks': [ 15, 15, 20, 4, 22],\n","    'city' : ['Gurugram', 'Delhi', 'Delhi', 'Gurugram', 'Hyderabad']\n","})\n","\n","data_frame"],"execution_count":0,"outputs":[{"output_type":"execute_result","data":{"text/html":["<div>\n","<style scoped>\n","    .dataframe tbody tr th:only-of-type {\n","        vertical-align: middle;\n","    }\n","\n","    .dataframe tbody tr th {\n","        vertical-align: top;\n","    }\n","\n","    .dataframe thead th {\n","        text-align: right;\n","    }\n","</style>\n","<table border=\"1\" class=\"dataframe\">\n","  <thead>\n","    <tr style=\"text-align: right;\">\n","      <th></th>\n","      <th>roll_no</th>\n","      <th>name</th>\n","      <th>grade</th>\n","      <th>marks</th>\n","      <th>city</th>\n","    </tr>\n","  </thead>\n","  <tbody>\n","    <tr>\n","      <th>0</th>\n","      <td>102</td>\n","      <td>Aravind</td>\n","      <td>B</td>\n","      <td>15</td>\n","      <td>Gurugram</td>\n","    </tr>\n","    <tr>\n","      <th>1</th>\n","      <td>101</td>\n","      <td>Rahul</td>\n","      <td>B</td>\n","      <td>15</td>\n","      <td>Delhi</td>\n","    </tr>\n","    <tr>\n","      <th>2</th>\n","      <td>104</td>\n","      <td>Prateek</td>\n","      <td>A</td>\n","      <td>20</td>\n","      <td>Delhi</td>\n","    </tr>\n","    <tr>\n","      <th>3</th>\n","      <td>103</td>\n","      <td>Piyuesh</td>\n","      <td>C</td>\n","      <td>4</td>\n","      <td>Gurugram</td>\n","    </tr>\n","    <tr>\n","      <th>4</th>\n","      <td>105</td>\n","      <td>Kartik</td>\n","      <td>A</td>\n","      <td>22</td>\n","      <td>Hyderabad</td>\n","    </tr>\n","  </tbody>\n","</table>\n","</div>"],"text/plain":["   roll_no     name grade  marks       city\n","0      102  Aravind     B     15   Gurugram\n","1      101    Rahul     B     15      Delhi\n","2      104  Prateek     A     20      Delhi\n","3      103  Piyuesh     C      4   Gurugram\n","4      105   Kartik     A     22  Hyderabad"]},"metadata":{"tags":[]},"execution_count":2}]},{"cell_type":"markdown","metadata":{"id":"lkeZbOEcxw2k","colab_type":"text"},"source":["---\n","\n","#### `SORT THE DATAFRAME BY THE GRADES OF THE STUDENT` \n","\n","\n","- Now, we need to sort the students based on their grades. We will use the **`sort_values`** function and in the parameter by we will pass the column **`grade`**. \n","\n","---"]},{"cell_type":"code","metadata":{"id":"Da41-Nwixw2l","colab_type":"code","colab":{},"outputId":"27f3e70b-3705-44d8-926e-2bdda2ba2e6a"},"source":["# sort the data\n","data_frame.sort_values(by=['grade'])"],"execution_count":0,"outputs":[{"output_type":"execute_result","data":{"text/html":["<div>\n","<style scoped>\n","    .dataframe tbody tr th:only-of-type {\n","        vertical-align: middle;\n","    }\n","\n","    .dataframe tbody tr th {\n","        vertical-align: top;\n","    }\n","\n","    .dataframe thead th {\n","        text-align: right;\n","    }\n","</style>\n","<table border=\"1\" class=\"dataframe\">\n","  <thead>\n","    <tr style=\"text-align: right;\">\n","      <th></th>\n","      <th>roll_no</th>\n","      <th>name</th>\n","      <th>grade</th>\n","      <th>marks</th>\n","      <th>city</th>\n","    </tr>\n","  </thead>\n","  <tbody>\n","    <tr>\n","      <th>2</th>\n","      <td>104</td>\n","      <td>Prateek</td>\n","      <td>A</td>\n","      <td>20</td>\n","      <td>Delhi</td>\n","    </tr>\n","    <tr>\n","      <th>4</th>\n","      <td>105</td>\n","      <td>Kartik</td>\n","      <td>A</td>\n","      <td>22</td>\n","      <td>Hyderabad</td>\n","    </tr>\n","    <tr>\n","      <th>0</th>\n","      <td>102</td>\n","      <td>Aravind</td>\n","      <td>B</td>\n","      <td>15</td>\n","      <td>Gurugram</td>\n","    </tr>\n","    <tr>\n","      <th>1</th>\n","      <td>101</td>\n","      <td>Rahul</td>\n","      <td>B</td>\n","      <td>15</td>\n","      <td>Delhi</td>\n","    </tr>\n","    <tr>\n","      <th>3</th>\n","      <td>103</td>\n","      <td>Piyuesh</td>\n","      <td>C</td>\n","      <td>4</td>\n","      <td>Gurugram</td>\n","    </tr>\n","  </tbody>\n","</table>\n","</div>"],"text/plain":["   roll_no     name grade  marks       city\n","2      104  Prateek     A     20      Delhi\n","4      105   Kartik     A     22  Hyderabad\n","0      102  Aravind     B     15   Gurugram\n","1      101    Rahul     B     15      Delhi\n","3      103  Piyuesh     C      4   Gurugram"]},"metadata":{"tags":[]},"execution_count":4}]},{"cell_type":"markdown","metadata":{"id":"nFnokyMuxw2r","colab_type":"text"},"source":["---\n","\n","- Now, that we have sorted the data based on the grades. You can see that some of the students with higher marks are ranked lower even having the same marks. So, we want to sort the data based on both grades and marks.\n","\n","- Also, the grades should be in ascending order and marks should be in descending order.\n","\n","\n","---"]},{"cell_type":"markdown","metadata":{"id":"_z1yOxxFxw2t","colab_type":"text"},"source":["---\n","\n","#### `SORT THE DATAFRAME BY GRADE AND MARKS OF THE STUDENTS`\n","\n","\n","- To sort the values in the descending order, we need to set parameter `ascending = False`.\n","- In the by parameter pass the list of columns on which we want to sort and for the ascending parameter pass the boolean list `True for ascending` and `False for descending`.\n","\n","---"]},{"cell_type":"code","metadata":{"id":"_3yhDtmSxw2v","colab_type":"code","colab":{},"outputId":"8f9418b1-a0e3-4e18-d412-134db9aecddc"},"source":["# sort the dataframe\n","data_frame.sort_values(by=['grade','marks'],ascending=[True,False])"],"execution_count":0,"outputs":[{"output_type":"execute_result","data":{"text/html":["<div>\n","<style scoped>\n","    .dataframe tbody tr th:only-of-type {\n","        vertical-align: middle;\n","    }\n","\n","    .dataframe tbody tr th {\n","        vertical-align: top;\n","    }\n","\n","    .dataframe thead th {\n","        text-align: right;\n","    }\n","</style>\n","<table border=\"1\" class=\"dataframe\">\n","  <thead>\n","    <tr style=\"text-align: right;\">\n","      <th></th>\n","      <th>roll_no</th>\n","      <th>name</th>\n","      <th>grade</th>\n","      <th>marks</th>\n","      <th>city</th>\n","    </tr>\n","  </thead>\n","  <tbody>\n","    <tr>\n","      <th>4</th>\n","      <td>105</td>\n","      <td>Kartik</td>\n","      <td>A</td>\n","      <td>22</td>\n","      <td>Hyderabad</td>\n","    </tr>\n","    <tr>\n","      <th>2</th>\n","      <td>104</td>\n","      <td>Prateek</td>\n","      <td>A</td>\n","      <td>20</td>\n","      <td>Delhi</td>\n","    </tr>\n","    <tr>\n","      <th>0</th>\n","      <td>102</td>\n","      <td>Aravind</td>\n","      <td>B</td>\n","      <td>15</td>\n","      <td>Gurugram</td>\n","    </tr>\n","    <tr>\n","      <th>1</th>\n","      <td>101</td>\n","      <td>Rahul</td>\n","      <td>B</td>\n","      <td>15</td>\n","      <td>Delhi</td>\n","    </tr>\n","    <tr>\n","      <th>3</th>\n","      <td>103</td>\n","      <td>Piyuesh</td>\n","      <td>C</td>\n","      <td>4</td>\n","      <td>Gurugram</td>\n","    </tr>\n","  </tbody>\n","</table>\n","</div>"],"text/plain":["   roll_no     name grade  marks       city\n","4      105   Kartik     A     22  Hyderabad\n","2      104  Prateek     A     20      Delhi\n","0      102  Aravind     B     15   Gurugram\n","1      101    Rahul     B     15      Delhi\n","3      103  Piyuesh     C      4   Gurugram"]},"metadata":{"tags":[]},"execution_count":5}]},{"cell_type":"markdown","metadata":{"id":"TeX2X2Nzxw21","colab_type":"text"},"source":["---\n","\n","***Now, let's see the dataframe.***"]},{"cell_type":"code","metadata":{"id":"vf_Rlpsvxw24","colab_type":"code","colab":{},"outputId":"7cf35ce2-5513-4411-ebfb-78677b844678"},"source":["data_frame"],"execution_count":0,"outputs":[{"output_type":"execute_result","data":{"text/html":["<div>\n","<style scoped>\n","    .dataframe tbody tr th:only-of-type {\n","        vertical-align: middle;\n","    }\n","\n","    .dataframe tbody tr th {\n","        vertical-align: top;\n","    }\n","\n","    .dataframe thead th {\n","        text-align: right;\n","    }\n","</style>\n","<table border=\"1\" class=\"dataframe\">\n","  <thead>\n","    <tr style=\"text-align: right;\">\n","      <th></th>\n","      <th>roll_no</th>\n","      <th>name</th>\n","      <th>grade</th>\n","      <th>marks</th>\n","      <th>city</th>\n","    </tr>\n","  </thead>\n","  <tbody>\n","    <tr>\n","      <th>0</th>\n","      <td>102</td>\n","      <td>Aravind</td>\n","      <td>B</td>\n","      <td>15</td>\n","      <td>Gurugram</td>\n","    </tr>\n","    <tr>\n","      <th>1</th>\n","      <td>101</td>\n","      <td>Rahul</td>\n","      <td>B</td>\n","      <td>15</td>\n","      <td>Delhi</td>\n","    </tr>\n","    <tr>\n","      <th>2</th>\n","      <td>104</td>\n","      <td>Prateek</td>\n","      <td>A</td>\n","      <td>20</td>\n","      <td>Delhi</td>\n","    </tr>\n","    <tr>\n","      <th>3</th>\n","      <td>103</td>\n","      <td>Piyuesh</td>\n","      <td>C</td>\n","      <td>4</td>\n","      <td>Gurugram</td>\n","    </tr>\n","    <tr>\n","      <th>4</th>\n","      <td>105</td>\n","      <td>Kartik</td>\n","      <td>A</td>\n","      <td>22</td>\n","      <td>Hyderabad</td>\n","    </tr>\n","  </tbody>\n","</table>\n","</div>"],"text/plain":["   roll_no     name grade  marks       city\n","0      102  Aravind     B     15   Gurugram\n","1      101    Rahul     B     15      Delhi\n","2      104  Prateek     A     20      Delhi\n","3      103  Piyuesh     C      4   Gurugram\n","4      105   Kartik     A     22  Hyderabad"]},"metadata":{"tags":[]},"execution_count":6}]},{"cell_type":"markdown","metadata":{"id":"y14e4hSnxw2-","colab_type":"text"},"source":["***Now, you can observe that the sorted state of the dataframe is not saved. Use the parameter `inplace = True` to save the sorted state.***\n","\n","---"]},{"cell_type":"code","metadata":{"id":"TYCWOEYAxw3A","colab_type":"code","colab":{}},"source":["# save the sorted state by using inplace =True\n","data_frame.sort_values(by=['grade','marks'], ascending= [True, False], inplace=True)"],"execution_count":0,"outputs":[]},{"cell_type":"code","metadata":{"id":"StcV_0KExw3F","colab_type":"code","colab":{},"outputId":"784d2234-e17f-4321-81ec-c7de5903a185"},"source":["data_frame"],"execution_count":0,"outputs":[{"output_type":"execute_result","data":{"text/html":["<div>\n","<style scoped>\n","    .dataframe tbody tr th:only-of-type {\n","        vertical-align: middle;\n","    }\n","\n","    .dataframe tbody tr th {\n","        vertical-align: top;\n","    }\n","\n","    .dataframe thead th {\n","        text-align: right;\n","    }\n","</style>\n","<table border=\"1\" class=\"dataframe\">\n","  <thead>\n","    <tr style=\"text-align: right;\">\n","      <th></th>\n","      <th>roll_no</th>\n","      <th>name</th>\n","      <th>grade</th>\n","      <th>marks</th>\n","      <th>city</th>\n","    </tr>\n","  </thead>\n","  <tbody>\n","    <tr>\n","      <th>4</th>\n","      <td>105</td>\n","      <td>Kartik</td>\n","      <td>A</td>\n","      <td>22</td>\n","      <td>Hyderabad</td>\n","    </tr>\n","    <tr>\n","      <th>2</th>\n","      <td>104</td>\n","      <td>Prateek</td>\n","      <td>A</td>\n","      <td>20</td>\n","      <td>Delhi</td>\n","    </tr>\n","    <tr>\n","      <th>0</th>\n","      <td>102</td>\n","      <td>Aravind</td>\n","      <td>B</td>\n","      <td>15</td>\n","      <td>Gurugram</td>\n","    </tr>\n","    <tr>\n","      <th>1</th>\n","      <td>101</td>\n","      <td>Rahul</td>\n","      <td>B</td>\n","      <td>15</td>\n","      <td>Delhi</td>\n","    </tr>\n","    <tr>\n","      <th>3</th>\n","      <td>103</td>\n","      <td>Piyuesh</td>\n","      <td>C</td>\n","      <td>4</td>\n","      <td>Gurugram</td>\n","    </tr>\n","  </tbody>\n","</table>\n","</div>"],"text/plain":["   roll_no     name grade  marks       city\n","4      105   Kartik     A     22  Hyderabad\n","2      104  Prateek     A     20      Delhi\n","0      102  Aravind     B     15   Gurugram\n","1      101    Rahul     B     15      Delhi\n","3      103  Piyuesh     C      4   Gurugram"]},"metadata":{"tags":[]},"execution_count":8}]},{"cell_type":"markdown","metadata":{"id":"K-z7XKMYxw3K","colab_type":"text"},"source":["---\n","\n","***Now, we can see that the index is also shuffled according to the sorting. If we want to reset the index we use `reset_index` function.***\n","\n","\n","---"]},{"cell_type":"code","metadata":{"id":"-eMu1_xjxw3M","colab_type":"code","colab":{},"outputId":"7952c4f7-926a-49b4-d559-caa7fd40126f"},"source":["data_frame.reset_index()"],"execution_count":0,"outputs":[{"output_type":"execute_result","data":{"text/html":["<div>\n","<style scoped>\n","    .dataframe tbody tr th:only-of-type {\n","        vertical-align: middle;\n","    }\n","\n","    .dataframe tbody tr th {\n","        vertical-align: top;\n","    }\n","\n","    .dataframe thead th {\n","        text-align: right;\n","    }\n","</style>\n","<table border=\"1\" class=\"dataframe\">\n","  <thead>\n","    <tr style=\"text-align: right;\">\n","      <th></th>\n","      <th>index</th>\n","      <th>roll_no</th>\n","      <th>name</th>\n","      <th>grade</th>\n","      <th>marks</th>\n","      <th>city</th>\n","    </tr>\n","  </thead>\n","  <tbody>\n","    <tr>\n","      <th>0</th>\n","      <td>4</td>\n","      <td>105</td>\n","      <td>Kartik</td>\n","      <td>A</td>\n","      <td>22</td>\n","      <td>Hyderabad</td>\n","    </tr>\n","    <tr>\n","      <th>1</th>\n","      <td>2</td>\n","      <td>104</td>\n","      <td>Prateek</td>\n","      <td>A</td>\n","      <td>20</td>\n","      <td>Delhi</td>\n","    </tr>\n","    <tr>\n","      <th>2</th>\n","      <td>0</td>\n","      <td>102</td>\n","      <td>Aravind</td>\n","      <td>B</td>\n","      <td>15</td>\n","      <td>Gurugram</td>\n","    </tr>\n","    <tr>\n","      <th>3</th>\n","      <td>1</td>\n","      <td>101</td>\n","      <td>Rahul</td>\n","      <td>B</td>\n","      <td>15</td>\n","      <td>Delhi</td>\n","    </tr>\n","    <tr>\n","      <th>4</th>\n","      <td>3</td>\n","      <td>103</td>\n","      <td>Piyuesh</td>\n","      <td>C</td>\n","      <td>4</td>\n","      <td>Gurugram</td>\n","    </tr>\n","  </tbody>\n","</table>\n","</div>"],"text/plain":["   index  roll_no     name grade  marks       city\n","0      4      105   Kartik     A     22  Hyderabad\n","1      2      104  Prateek     A     20      Delhi\n","2      0      102  Aravind     B     15   Gurugram\n","3      1      101    Rahul     B     15      Delhi\n","4      3      103  Piyuesh     C      4   Gurugram"]},"metadata":{"tags":[]},"execution_count":9}]},{"cell_type":"markdown","metadata":{"id":"7yvoO4UZxw3S","colab_type":"text"},"source":["---\n","\n","***Now, it has created another column `index` which is the previous index. If you want to remove this just pass the parameter `drop = True` and also `inplace = True` to save the state.***\n","\n","---"]},{"cell_type":"code","metadata":{"id":"deS_803exw3T","colab_type":"code","colab":{},"outputId":"3fa5a8c4-6f9c-43f1-c619-dd7b0f797cff"},"source":["data_frame.reset_index(inplace=True, drop=True)\n","data_frame"],"execution_count":0,"outputs":[{"output_type":"execute_result","data":{"text/html":["<div>\n","<style scoped>\n","    .dataframe tbody tr th:only-of-type {\n","        vertical-align: middle;\n","    }\n","\n","    .dataframe tbody tr th {\n","        vertical-align: top;\n","    }\n","\n","    .dataframe thead th {\n","        text-align: right;\n","    }\n","</style>\n","<table border=\"1\" class=\"dataframe\">\n","  <thead>\n","    <tr style=\"text-align: right;\">\n","      <th></th>\n","      <th>roll_no</th>\n","      <th>name</th>\n","      <th>grade</th>\n","      <th>marks</th>\n","      <th>city</th>\n","    </tr>\n","  </thead>\n","  <tbody>\n","    <tr>\n","      <th>0</th>\n","      <td>105</td>\n","      <td>Kartik</td>\n","      <td>A</td>\n","      <td>22</td>\n","      <td>Hyderabad</td>\n","    </tr>\n","    <tr>\n","      <th>1</th>\n","      <td>104</td>\n","      <td>Prateek</td>\n","      <td>A</td>\n","      <td>20</td>\n","      <td>Delhi</td>\n","    </tr>\n","    <tr>\n","      <th>2</th>\n","      <td>102</td>\n","      <td>Aravind</td>\n","      <td>B</td>\n","      <td>15</td>\n","      <td>Gurugram</td>\n","    </tr>\n","    <tr>\n","      <th>3</th>\n","      <td>101</td>\n","      <td>Rahul</td>\n","      <td>B</td>\n","      <td>15</td>\n","      <td>Delhi</td>\n","    </tr>\n","    <tr>\n","      <th>4</th>\n","      <td>103</td>\n","      <td>Piyuesh</td>\n","      <td>C</td>\n","      <td>4</td>\n","      <td>Gurugram</td>\n","    </tr>\n","  </tbody>\n","</table>\n","</div>"],"text/plain":["   roll_no     name grade  marks       city\n","0      105   Kartik     A     22  Hyderabad\n","1      104  Prateek     A     20      Delhi\n","2      102  Aravind     B     15   Gurugram\n","3      101    Rahul     B     15      Delhi\n","4      103  Piyuesh     C      4   Gurugram"]},"metadata":{"tags":[]},"execution_count":10}]},{"cell_type":"code","metadata":{"id":"fmsiCzj-xw3a","colab_type":"code","colab":{}},"source":[""],"execution_count":0,"outputs":[]}]}[m
+\ No newline at end of file[m
+[1mdiff --git a/AggregatingandSummarizing-200324-003230/3. Aggregating and Summarizing DataFrames.ipynb b/AggregatingandSummarizing-200324-003230/3. Aggregating and Summarizing DataFrames.ipynb[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3007570[m
+[1m--- /dev/null[m
+[1m+++ b/AggregatingandSummarizing-200324-003230/3. Aggregating and Summarizing DataFrames.ipynb[m	
+[36m@@ -0,0 +1,3633 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m "cells": [[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "markdown",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "---\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "<center><h1> 📍 📍 Aggregating and Summarizing DataFrames 📍 📍 </h1></center>\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "---\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "- How to calculate sum, mean, median and mode of a column?\n",[m
+[32m+[m[32m    "- How to get the summary of the numerical variables?\n",[m
+[32m+[m[32m    "- How to get number of missing values in each columns?\n",[m
+[32m+[m[32m    "- How to group the data based on categories of one column?\n",[m
+[32m+[m[32m    "- How to group the data based on categories of multiple columns?\n",[m
+[32m+[m[32m    "- How to create new feature using the aggregated results of a column?\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "---\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "#### `READ THE DATASET`\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "- In this notebook, we are going to use the big mart sales data that we have used previously. It is stored in the folder name `datasets`."[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 1,[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "scrolled": false[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "# import the pandas library\n",[m
+[32m+[m[32m    "import pandas as pd"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 2,[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "scrolled": false[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "# read the big mart sales data\n",[m
+[32m+[m[32m    "data = pd.read_csv('datasets/big_mart_sales.csv')"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 3,[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "scrolled": false[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/html": [[m
+[32m+[m[32m       "<div>\n",[m
+[32m+[m[32m       "<style scoped>\n",[m
+[32m+[m[32m       "    .dataframe tbody tr th:only-of-type {\n",[m
+[32m+[m[32m       "        vertical-align: middle;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "    .dataframe tbody tr th {\n",[m
+[32m+[m[32m       "        vertical-align: top;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "    .dataframe thead th {\n",[m
+[32m+[m[32m       "        text-align: right;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "</style>\n",[m
+[32m+[m[32m       "<table border=\"1\" class=\"dataframe\">\n",[m
+[32m+[m[32m       "  <thead>\n",[m
+[32m+[m[32m       "    <tr style=\"text-align: right;\">\n",[m
+[32m+[m[32m       "      <th></th>\n",[m
+[32m+[m[32m       "      <th>Item_Identifier</th>\n",[m
+[32m+[m[32m       "      <th>Item_Weight</th>\n",[m
+[32m+[m[32m       "      <th>Item_Fat_Content</th>\n",[m
+[32m+[m[32m       "      <th>Item_Visibility</th>\n",[m
+[32m+[m[32m       "      <th>Item_Type</th>\n",[m
+[32m+[m[32m       "      <th>Item_MRP</th>\n",[m
+[32m+[m[32m       "      <th>Outlet_Identifier</th>\n",[m
+[32m+[m[32m       "      <th>Outlet_Establishment_Year</th>\n",[m
+[32m+[m[32m       "      <th>Outlet_Size</th>\n",[m
+[32m+[m[32m       "      <th>Outlet_Location_Type</th>\n",[m
+[32m+[m[32m       "      <th>Outlet_Type</th>\n",[m
+[32m+[m[32m       "      <th>Item_Outlet_Sales</th>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "  </thead>\n",[m
+[32m+[m[32m       "  <tbody>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <td>0</td>\n",[m
+[32m+[m[32m       "      <td>FDA15</td>\n",[m
+[32m+[m[32m       "      <td>9.30</td>\n",[m
+[32m+[m[32m       "      <td>Low Fat</td>\n",[m
+[32m+[m[32m       "      <td>0.016047</td>\n",[m
+[32m+[m[32m       "      <td>Dairy</td>\n",[m
+[32m+[m[32m       "      <td>249.8092</td>\n",[m
+[32m+[m[32m       "      <td>OUT049</td>\n",[m
+[32m+[m[32m       "      <td>1999</td>\n",[m
+[32m+[m[32m       "      <td>Medium</td>\n",[m
+[32m+[m[32m       "      <td>Tier 1</td>\n",[m
+[32m+[m[32m       "      <td>Supermarket Type1</td>\n",[m
+[32m+[m[32m       "      <td>3735.1380</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <td>1</td>\n",[m
+[32m+[m[32m       "      <td>DRC01</td>\n",[m
+[32m+[m[32m       "      <td>5.92</td>\n",[m
+[32m+[m[32m       "      <td>Regular</td>\n",[m
+[32m+[m[32m       "      <td>0.019278</td>\n",[m
+[32m+[m[32m       "      <td>Soft Drinks</td>\n",[m
+[32m+[m[32m       "      <td>48.2692</td>\n",[m
+[32m+[m[32m       "      <td>OUT018</td>\n",[m
+[32m+[m[32m       "      <td>2009</td>\n",[m
+[32m+[m[32m       "      <td>Medium</td>\n",[m
+[32m+[m[32m       "      <td>Tier 3</td>\n",[m
+[32m+[m[32m       "      <td>Supermarket Type2</td>\n",[m
+[32m+[m[32m       "      <td>443.4228</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <td>2</td>\n",[m
+[32m+[m[32m       "      <td>FDN15</td>\n",[m
+[32m+[m[32m       "      <td>17.50</td>\n",[m
+[32m+[m[32m       "      <td>Low Fat</td>\n",[m
+[32m+[m[32m       "      <td>0.016760</td>\n",[m
+[32m+[m[32m       "      <td>Meat</td>\n",[m
+[32m+[m[32m       "      <td>141.6180</td>\n",[m
+[32m+[m[32m       "      <td>OUT049</td>\n",[m
+[32m+[m[32m       "      <td>1999</td>\n",[m
+[32m+[m[32m       "      <td>Medium</td>\n",[m
+[32m+[m[32m       "      <td>Tier 1</td>\n",[m
+[32m+[m[32m       "      <td>Supermarket Type1</td>\n",[m
+[32m+[m[32m       "      <td>2097.2700</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <td>3</td>\n",[m
+[32m+[m[32m       "      <td>FDX07</td>\n",[m
+[32m+[m[32m       "      <td>19.20</td>\n",[m
+[32m+[m[32m       "      <td>Regular</td>\n",[m
+[32m+[m[32m       "      <td>0.000000</td>\n",[m
+[32m+[m[32m       "      <td>Fruits and Vegetables</td>\n",[m
+[32m+[m[32m       "      <td>182.0950</td>\n",[m
+[32m+[m[32m       "      <td>OUT010</td>\n",[m
+[32m+[m[32m       "      <td>1998</td>\n",[m
+[32m+[m[32m       "      <td>NaN</td>\n",[m
+[32m+[m[32m       "      <td>Tier 3</td>\n",[m
+[32m+[m[32m       "      <td>Grocery Store</td>\n",[m
+[32m+[m[32m       "      <td>732.3800</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <td>4</td>\n",[m
+[32m+[m[32m       "      <td>NCD19</td>\n",[m
+[32m+[m[32m       "      <td>8.93</td>\n",[m
+[32m+[m[32m       "      <td>Low Fat</td>\n",[m
+[32m+[m[32m       "      <td>0.000000</td>\n",[m
+[32m+[m[32m       "      <td>Household</td>\n",[m
+[32m+[m[32m       "      <td>53.8614</td>\n",[m
+[32m+[m[32m       "      <td>OUT013</td>\n",[m
+[32m+[m[32m       "      <td>1987</td>\n",[m
+[32m+[m[32m       "      <td>High</td>\n",[m
+[32m+[m[32m       "      <td>Tier 3</td>\n",[m
+[32m+[m[32m       "      <td>Supermarket Type1</td>\n",[m
+[32m+[m[32m       "      <td>994.7052</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "  </tbody>\n",[m
+[32m+[m[32m       "</table>\n",[m
+[32m+[m[32m       "</div>"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "  Item_Identifier  Item_Weight Item_Fat_Content  Item_Visibility  \\\n",[m
+[32m+[m[32m       "0           FDA15         9.30          Low Fat         0.016047   \n",[m
+[32m+[m[32m       "1           DRC01         5.92          Regular         0.019278   \n",[m
+[32m+[m[32m       "2           FDN15        17.50          Low Fat         0.016760   \n",[m
+[32m+[m[32m       "3           FDX07        19.20          Regular         0.000000   \n",[m
+[32m+[m[32m       "4           NCD19         8.93          Low Fat         0.000000   \n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "               Item_Type  Item_MRP Outlet_Identifier  \\\n",[m
+[32m+[m[32m       "0                  Dairy  249.8092            OUT049   \n",[m
+[32m+[m[32m       "1            Soft Drinks   48.2692            OUT018   \n",[m
+[32m+[m[32m       "2                   Meat  141.6180            OUT049   \n",[m
+[32m+[m[32m       "3  Fruits and Vegetables  182.0950            OUT010   \n",[m
+[32m+[m[32m       "4              Household   53.8614            OUT013   \n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "   Outlet_Establishment_Year Outlet_Size Outlet_Location_Type  \\\n",[m
+[32m+[m[32m       "0                       1999      Medium               Tier 1   \n",[m
+[32m+[m[32m       "1                       2009      Medium               Tier 3   \n",[m
+[32m+[m[32m       "2                       1999      Medium               Tier 1   \n",[m
+[32m+[m[32m       "3                       1998         NaN               Tier 3   \n",[m
+[32m+[m[32m       "4                       1987        High               Tier 3   \n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "         Outlet_Type  Item_Outlet_Sales  \n",[m
+[32m+[m[32m       "0  Supermarket Type1          3735.1380  \n",[m
+[32m+[m[32m       "1  Supermarket Type2           443.4228  \n",[m
+[32m+[m[32m       "2  Supermarket Type1          2097.2700  \n",[m
+[32m+[m[32m       "3      Grocery Store           732.3800  \n",[m
+[32m+[m[32m       "4  Supermarket Type1           994.7052  "[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 3,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "# view the top rows of the data\n",[m
+[32m+[m[32m    "data.head()"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "markdown",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "---\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "#### `How to calculate sum, mean, median and mode of a column?`\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "---"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 4,[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "scrolled": false[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "1201681.4808"[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 4,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "# calculate the sum of all MRP\n",[m
+[32m+[m[32m    "data.Item_MRP.sum()"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 5,[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "scrolled": false[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "140.9927819781768"[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 5,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "# calculate the average Item_MRP\n",[m
+[32m+[m[32m    "data.Item_MRP.mean()"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 6,[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "scrolled": false[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "143.0128"[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 6,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "# calculate the median of Item_MRP\n",[m
+[32m+[m[32m    "data.Item_MRP.median()"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 7,[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "scrolled": false[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "0    Supermarket Type1\n",[m
+[32m+[m[32m       "dtype: object"[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 7,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "# find out the most frequent outlet type\n",[m
+[32m+[m[32m    "data.Outlet_Type.mode()"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 8,[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "Supermarket Type1    5577\n",[m
+[32m+[m[32m       "Grocery Store        1083\n",[m
+[32m+[m[32m       "Supermarket Type3     935\n",[m
+[32m+[m[32m       "Supermarket Type2     928\n",[m
+[32m+[m[32m       "Name: Outlet_Type, dtype: int64"[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 8,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "data.Outlet_Type.value_counts()"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "markdown",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "---\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "#### `How to get the summary of the numerical variables?`\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "To get the summary of the numerical variables we have describe function in pandas.\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "---"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 9,[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "scrolled": false[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/html": [[m
+[32m+[m[32m       "<div>\n",[m
+[32m+[m[32m       "<style scoped>\n",[m
+[32m+[m[32m       "    .dataframe tbody tr th:only-of-type {\n",[m
+[32m+[m[32m       "        vertical-align: middle;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "    .dataframe tbody tr th {\n",[m
+[32m+[m[32m       "        vertical-align: top;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "    .dataframe thead th {\n",[m
+[32m+[m[32m       "        text-align: right;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "</style>\n",[m
+[32m+[m[32m       "<table border=\"1\" class=\"dataframe\">\n",[m
+[32m+[m[32m       "  <thead>\n",[m
+[32m+[m[32m       "    <tr style=\"text-align: right;\">\n",[m
+[32m+[m[32m       "      <th></th>\n",[m
+[32m+[m[32m       "      <th>Item_Weight</th>\n",[m
+[32m+[m[32m       "      <th>Item_Visibility</th>\n",[m
+[32m+[m[32m       "      <th>Item_MRP</th>\n",[m
+[32m+[m[32m       "      <th>Outlet_Establishment_Year</th>\n",[m
+[32m+[m[32m       "      <th>Item_Outlet_Sales</th>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "  </thead>\n",[m
+[32m+[m[32m       "  <tbody>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <td>count</td>\n",[m
+[32m+[m[32m       "      <td>7060.000000</td>\n",[m
+[32m+[m[32m       "      <td>8523.000000</td>\n",[m
+[32m+[m[32m       "      <td>8523.000000</td>\n",[m
+[32m+[m[32m       "      <td>8523.000000</td>\n",[m
+[32m+[m[32m       "      <td>8523.000000</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <td>mean</td>\n",[m
+[32m+[m[32m       "      <td>12.857645</td>\n",[m
+[32m+[m[32m       "      <td>0.066132</td>\n",[m
+[32m+[m[32m       "      <td>140.992782</td>\n",[m
+[32m+[m[32m       "      <td>1997.831867</td>\n",[m
+[32m+[m[32m       "      <td>2181.288914</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <td>std</td>\n",[m
+[32m+[m[32m       "      <td>4.643456</td>\n",[m
+[32m+[m[32m       "      <td>0.051598</td>\n",[m
+[32m+[m[32m       "      <td>62.275067</td>\n",[m
+[32m+[m[32m       "      <td>8.371760</td>\n",[m
+[32m+[m[32m       "      <td>1706.499616</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <td>min</td>\n",[m
+[32m+[m[32m       "      <td>4.555000</td>\n",[m
+[32m+[m[32m       "      <td>0.000000</td>\n",[m
+[32m+[m[32m       "      <td>31.290000</td>\n",[m
+[32m+[m[32m       "      <td>1985.000000</td>\n",[m
+[32m+[m[32m       "      <td>33.290000</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <td>25%</td>\n",[m
+[32m+[m[32m       "      <td>8.773750</td>\n",[m
+[32m+[m[32m       "      <td>0.026989</td>\n",[m
+[32m+[m[32m       "      <td>93.826500</td>\n",[m
+[32m+[m[32m       "      <td>1987.000000</td>\n",[m
+[32m+[m[32m       "      <td>834.247400</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <td>50%</td>\n",[m
+[32m+[m[32m       "      <td>12.600000</td>\n",[m
+[32m+[m[32m       "      <td>0.053931</td>\n",[m
+[32m+[m[32m       "      <td>143.012800</td>\n",[m
+[32m+[m[32m       "      <td>1999.000000</td>\n",[m
+[32m+[m[32m       "      <td>1794.331000</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <td>75%</td>\n",[m
+[32m+[m[32m       "      <td>16.850000</td>\n",[m
+[32m+[m[32m       "      <td>0.094585</td>\n",[m
+[32m+[m[32m       "      <td>185.643700</td>\n",[m
+[32m+[m[32m       "      <td>2004.000000</td>\n",[m
+[32m+[m[32m       "      <td>3101.296400</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "    <tr>\n",[m
+[32m+[m[32m       "      <td>max</td>\n",[m
+[32m+[m[32m       "      <td>21.350000</td>\n",[m
+[32m+[m[32m       "      <td>0.328391</td>\n",[m
+[32m+[m[32m       "      <td>266.888400</td>\n",[m
+[32m+[m[32m       "      <td>2009.000000</td>\n",[m
+[32m+[m[32m       "      <td>13086.964800</td>\n",[m
+[32m+[m[32m       "    </tr>\n",[m
+[32m+[m[32m       "  </tbody>\n",[m
+[32m+[m[32m       "</table>\n",[m
+[32m+[m[32m       "</div>"[m
+[32m+[m[32m      ],[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "       Item_Weight  Item_Visibility     Item_MRP  Outlet_Establishment_Year  \\\n",[m
+[32m+[m[32m       "count  7060.000000      8523.000000  8523.000000                8523.000000   \n",[m
+[32m+[m[32m       "mean     12.857645         0.066132   140.992782                1997.831867   \n",[m
+[32m+[m[32m       "std       4.643456         0.051598    62.275067                   8.371760   \n",[m
+[32m+[m[32m       "min       4.555000         0.000000    31.290000                1985.000000   \n",[m
+[32m+[m[32m       "25%       8.773750         0.026989    93.826500                1987.000000   \n",[m
+[32m+[m[32m       "50%      12.600000         0.053931   143.012800                1999.000000   \n",[m
+[32m+[m[32m       "75%      16.850000         0.094585   185.643700                2004.000000   \n",[m
+[32m+[m[32m       "max      21.350000         0.328391   266.888400                2009.000000   \n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "       Item_Outlet_Sales  \n",[m
+[32m+[m[32m       "count        8523.000000  \n",[m
+[32m+[m[32m       "mean         2181.288914  \n",[m
+[32m+[m[32m       "std          1706.499616  \n",[m
+[32m+[m[32m       "min            33.290000  \n",[m
+[32m+[m[32m       "25%           834.247400  \n",[m
+[32m+[m[32m       "50%          1794.331000  \n",[m
+[32m+[m[32m       "75%          3101.296400  \n",[m
+[32m+[m[32m       "max         13086.964800  "[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 9,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "# get the summary\n",[m
+[32m+[m[32m    "data.describe()"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "markdown",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "---\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "#### `How to get number of missing values in each columns?`\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "---"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 10,[m
+[32m+[m[32m   "metadata": {[m
+[32m+[m[32m    "scrolled": false[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/plain": [[m
+[32m+[m[32m       "Item_Identifier                 0\n",[m
+[32m+[m[32m       "Item_Weight                  1463\n",[m
+[32m+[m[32m       "Item_Fat_Content                0\n",[m
+[32m+[m[32m       "Item_Visibility                 0\n",[m
+[32m+[m[32m       "Item_Type                       0\n",[m
+[32m+[m[32m       "Item_MRP                        0\n",[m
+[32m+[m[32m       "Outlet_Identifier               0\n",[m
+[32m+[m[32m       "Outlet_Establishment_Year       0\n",[m
+[32m+[m[32m       "Outlet_Size                  2410\n",[m
+[32m+[m[32m       "Outlet_Location_Type            0\n",[m
+[32m+[m[32m       "Outlet_Type                     0\n",[m
+[32m+[m[32m       "Item_Outlet_Sales               0\n",[m
+[32m+[m[32m       "dtype: int64"[m
+[32m+[m[32m      ][m
+[32m+[m[32m     },[m
+[32m+[m[32m     "execution_count": 10,[m
+[32m+[m[32m     "metadata": {},[m
+[32m+[m[32m     "output_type": "execute_result"[m
+[32m+[m[32m    }[m
+[32m+[m[32m   ],[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "data.isna().sum()"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "markdown",[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "source": [[m
+[32m+[m[32m    "----\n",[m
+[32m+[m[32m    "#### `How to group the data based on categories of one column?`\n",[m
+[32m+[m[32m    "---\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "#### `GROUP BY`\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "- Calculate the average MRP of each `Item_Type` using groupby.\n",[m
+[32m+[m[32m    "\n",[m
+[32m+[m[32m    "---"[m
+[32m+[m[32m   ][m
+[32m+[m[32m  },[m
+[32m+[m[32m  {[m
+[32m+[m[32m   "cell_type": "code",[m
+[32m+[m[32m   "execution_count": 11,[m
+[32m+[m[32m   "metadata": {},[m
+[32m+[m[32m   "outputs": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m     "data": {[m
+[32m+[m[32m      "text/html": [[m
+[32m+[m[32m       "<div>\n",[m
+[32m+[m[32m       "<style scoped>\n",[m
+[32m+[m[32m       "    .dataframe tbody tr th:only-of-type {\n",[m
+[32m+[m[32m       "        vertical-align: middle;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "    .dataframe tbody tr th {\n",[m
+[32m+[m[32m       "        vertical-align: top;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "\n",[m
+[32m+[m[32m       "    .dataframe thead th {\n",[m
+[32m+[m[32m       "        text-align: right;\n",[m
+[32m+[m[32m       "    }\n",[m
+[32m+[m[32m       "</style>\n",[m
+[32m+[m[32m       "<table border=\"1\" class=\"dataframe\">\n",[m
+[32m+[m[32m       "  <thead>\n",[m
+[32m+[m[32m       "    <tr style=\"text-align: right;\">\n",[m
+[32m+[m[32m       "      <th></th>\n",[m
+[32m+[m[32m       "      <th>Item_Identifier</th>\n",[m
+[32m+[m[32m       "      <th>Item_Weight</th>\n",[m
+[32m+[m[
